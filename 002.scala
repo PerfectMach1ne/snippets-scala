@@ -1,0 +1,19 @@
+// https://docs.scala-lang.org/tour/basics.html
+// https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html
+// Read-studying code and study-coding in the browser thingy.
+// https://scastie.scala-lang.org/pEBYc5VMT02wAGaDrfLnyw
+//
+// Unified types - Any is the supertype of all and has two subclasses
+// AnyVal for Scala object values, and AnyRef for java.lang.Object values (IF we're working with a JRE)
+// Unified type examples: Double, Float, Int, Unit, Char, Boolean ,Byte, a few more
+// https://docs.scala-lang.org/tour/unified-types.html
+@main def run() = 
+  val list: List[Any] = List(
+    "a string",
+    732,  // an integer
+    'c',  // a character
+    true, // a boolean value
+    () => "an anonymous function returning a string"
+  )
+
+  list.foreach(element => println(element))
