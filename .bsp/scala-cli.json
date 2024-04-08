@@ -1,0 +1,16 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "C:\\Users\\celes\\AppData\\Local\\Coursier\\data\\bin\\.scala-cli.aux.exe",
+    "bsp",
+    "--json-options",
+    "C:\\Users\\celes\\A_Sector_To_Wreck\\snippets-scala\\.scala-build\\ide-options-v2.json",
+    "C:\\Users\\celes\\A_Sector_To_Wreck\\snippets-scala"
+  ],
+  "version": "1.2.1",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
