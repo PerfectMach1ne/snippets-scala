@@ -6,7 +6,7 @@
 class Point():
   private var _x = 0
   private var _y = 0
-  private var bound = 100
+  private val bound = 100
 
   def x: Int = _x // Getter
   def x_=(newValue: Int): Unit = // Setter; _= is part of special setter name syntax!! 
